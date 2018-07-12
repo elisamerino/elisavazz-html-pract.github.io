@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+a{
+    text-decoration: none;
+    font-size: 0.86em;
+}
+.link:hover{
+    opacity: 0.5;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+nav{
+    background-color: #C12127;
+    color:rgba(255,255,255,0.8);
+ padding-top: 15px;
+  height: 40px;
+  position:relative;
+  margin:auto;
+  width: 100%;
+}
+span{
+    font-weight: 700;
+}
+nav a{
+    color: rgba(255,255,255,0.8);
+}
+.top-left{
+    width:30%;
+    margin-left:20px;
+    padding:0 9px;
+float: left;
+}
+.heart{
+   margin: 0 20px 0 auto;
+   font-weight: 700;
+}
+
+.top-links{
+    width:60%;
+    display:inline-block;
+    float: right;
+    margin:0 0 0 20px;
+}
+.top-links li{
+    list-style-type:none;
+    text-align:center;
+    font-weight: 700;
+    display:inline-block;
+padding:0 9px;
+}
+.clearfix{
+    clear:both;
+}
+header{
+    background-color: rgb(32, 101, 136);
+    min-height:480px;
+    background-image:url("images/city-scape.svg");
+    float:right;
+    background-position:0 0;
+    background-repeat:repeat;
+    width: 1200px;
+    width:100%;
+  margin:auto;
+    position : relative;
+    color: #fff;
+    
+}
+
+
+.logo-and-search{
+    margin-left: 30px;
+margin-top:10px;
+width:100%;
+}
+.logo{ 
+    padding: 0 3px ;
+ width:108px;
+   float:left;
+}
+.logo img{ 
+    width: 100%;
+    height: auto;
+}
+.search-box{
+    margin-left: 10px;
+ 
+    padding:3px;
+    float:left;
+   width:60%;
+position:relative;
+}
+
+input.text-search{
+    float:left;
+    position: relative;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    height: 28px;
+    outline: none;
+    width: 80%;
+    background: rgb(31, 82, 111);
+    border: 1px solid rgba(255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    padding-left:16px;
+   
+}
+
+.search-button{
+    float: left;
+    position:relative;
+  background: rgb(31, 82, 111);
+  border: 0.5px solid rgba(255, 0.5);
+  height: 28px;
+  margin:auto;
+  padding:3px;
+}
+.search-button i{ 
+    width: 24px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    }
+.search-button i:after{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.sign-in{
+    float:right;
+    display: block;
+    position:relative;
+    margin-top:10px;
+    margin-left: 10px;
+    padding:3px;
+    width: 30%;
+}
+.sign-in a{
+    float:left;
+    margin: auto 3px;
+    color:#fff;
+}
+div.mascotte{
+    content:url("images/bear-logo.png");
+    float:right;
+    position:relative;
+ max-height:48px;
+ margin-right: 30px;
+}
+.mascotte:after{
+content:url("images/bear-logo.png");
+float:right;
+position:relative;
+max-width:48px;
+margin-right: 30px;
+}
+h2{
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 1.2em;
+   
+}
+h3{
+    font-weight: 400;
+    font-size: 2.4em;
+ line-height: 1.8em;
+}
+h4{
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 1.8em;
+    
+}
+
+.container{
+    margin:auto;
+     width: 1200px;
+     padding:75px 30px;
+ }
+.sign-in{
+    float:left;
+    position:relative;
+    margin:auto 10px;
+    padding:3px;
+    width: 20%;
+}
+.text{
+    font-size: 1.2em;
+}
+.general-info{
+float:left;
+margin-top:20px;
+margin-left:5%;
+    width:40%; 
+
+}
+.call-action{
+    display: block;
+    font-size: 1.5em;
+    padding: 12px 40px;
+    text-decoration: none;
+    color:white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.general-info a{
+    float:left;
+    background-color:#e97e11;
+    
+    margin: 40px auto 0;   
+}
+.general-info a:hover{
+    background-color:#DD770F;
+}
+#features{
+   position: relative;
+   color:#fff;
+  
+}
+.color-background{
+   
+    padding: 40px 0 10px;
+    float:left;
+    width:100%;
+    background-color: #223245;
+}
+#features img{
+    float:left;
+    margin-bottom: auto;
+    margin-left: 5%;
+    width:40%;
+}
+#description-org{
+    float:right;
+    width:40%;
+    margin-right: 5%;
+}
+#description-org ul {
+    padding:20px 10px 10px;
+}
+#description-org li{
+font-weight: 400;
+font-size: 1.2em;
+line-height: 1.6em;
+}
+#feat-call{
+   padding-top:40px;
+    text-align: center;
+}
+.button-orgs{
+    background-color: rgb(203, 56, 55);
+    margin: auto 5% 9px;
+}
+.button-orgs:hover{
+    background-color: rgb(171,64,51);
+}
+
+a{
+    color:#fff;
+}
+#technical-info{
+    position:relative;
+    float:left;
+    min-height:480px;
+    background-image:url("images/forklift.svg");
+    background-position:0 0;
+    background-repeat:repeat;
+    width:100%;
+     color:#fff;
+}
+#technical-info div{
+    width:40%;  
+    float:left;
+    margin-top:30px;
+    margin-left: 30px;
+}
+.btn-install{
+    background-color: #223245;
+    margin: 40px auto 0;
+    float:left;
+}
+.btn-install:hover{
+    background-color: #1B2837;
+}
+.icons{
+   margin-top:40px; 
+   margin-bottom:20px; 
+}
+#possibilities{
+    text-align: center;
+    margin: 40px auto 30px;
+    
+}
+#possibilities a{
+    color:#cb3837;
+    font-weight: 700;
+}
+#possibilities a:hover{
+    text-decoration: underline #C12127;
+}
+
+.col {
+    float: left;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 40px;
+   
+  }
+  
+  .col-3 {
+    font-size: 1.2em;
+    width: 30%;
+    padding-left:12px;
+    padding-right:12px;
+  }
+  .col-middle {
+    margin-left:  10px;
+    margin-right:10px;
+  }
+
+  footer{
+padding-top:40px;
+    color: #cb3837;
+    margin:0 0;
+padding-left:30px; 
+
+}
